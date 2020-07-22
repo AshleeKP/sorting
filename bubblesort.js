@@ -1,6 +1,6 @@
 function swap(array){
   const sorted = array.sort((x,y) => {return x-y})
-  console.log(sorted)
+  //console.log(sorted)
 }
 
 function bubbleSort(array) {
@@ -19,7 +19,7 @@ function bubbleSort(array) {
 
 let thisArray = [4, 5, 9, 2]
 const answer = bubbleSort(thisArray);
-console.log(answer);
+//console.log(answer);
 
 
 // const len = array.length;
